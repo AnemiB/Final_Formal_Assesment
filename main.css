@@ -1,0 +1,235 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 200px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 1%;
+    color: #ffffff;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    background-color: #2b2b2b;
+}
+
+.nav-con{
+width: 550px;
+height: 70px;
+margin-top: 1px;
+float: right;
+}
+
+.nav-con ul{
+    list-style: none;
+    
+}
+.nav-con li{
+    float: left;
+    height: 35px;
+    padding-top: 4px;
+    margin-top: 3%;
+    padding-right: 6%;
+    padding-left: -50px;
+    color: #ffffff;
+}
+
+.col-box{
+
+    width:350px ;
+    height: 600px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 48%;
+    border-radius: 2%;
+    border: 2px solid lightgray;
+    text-align: center;
+ }
+
+ .col-box p.ls{
+    text-align: center;
+    width: 270px;
+    margin-left: -10px;
+ }
+
+ .col-box1{
+    width:180px ;
+    height: 180px;
+    margin-top: -600px;
+    margin-left: 150px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+    background-image: url(/assets/John.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ 
+
+ .col-box5{
+    width:180px ;
+    height: 180px;
+    margin-top: -575px;
+    margin-left: 150px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+    background-color: #000000;
+    opacity: 0%;
+    background-image: url(/assets/remove.svg);
+    background-size: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+  .col-box5:hover{
+    opacity: 50%;
+    
+  }
+
+  
+
+ .col-box2{
+    width:180px ;
+    height: 180px;
+    margin-top: -600px;
+    margin-left: 150px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+    background-image: url(/assets/Jane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .col-box3{
+    width:180px ;
+    height: 180px;
+    margin-top: -600px;
+    margin-left: 150px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+    background-image: url(/assets/Susan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+
+ .col-box4{
+    width:180px ;
+    height: 180px;
+    margin-top: -600px;
+    margin-left: 150px;
+    margin-right: 60px;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 50%;
+    background-color: #2b2b2b;
+ }
+
+
+
+ .add{
+    margin-top: -545px;
+    width: 70px;
+    height: 70px;
+    background-image: url(/assets/add.svg);
+    margin-left: 1660px;
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+ .button-group{
+    width: 400px;
+    height: 70px;
+    margin-top: -40px;  
+    margin-left: 85px;
+}
+
+.button{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding-top: 13px;
+    margin-top: -100px;
+    border-radius: 6px;
+}
+
+.normal:hover{
+    cursor: pointer;
+    border: 2px solid lightgray;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.normal{
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+.second{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    margin-left: 480px;
+    margin-top: -65px;
+}
+
+.third{
+    background-color: #2b2b2b;
+    color: #ffffff;
+    margin-left: 960px;
+    margin-top: -70px;
+}
+
+
+ input[type=text], select, textarea {
+    width: 130%; 
+    padding: 12px; 
+    border: 0px solid lightgray; 
+    border-radius: 6px; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left: -30px;
+    resize: vertical ;
+    background-color: lightgray;
+    color: #494949;
+  }
+  
+  
+  input[type=play] {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    width: 130%; 
+    margin-left: -30px;
+  }
+
+
+.foot{
+    margin-top: 300px;
+    color: #ffffff;
+    background-color: #2b2b2b;
+    width: 100%;
+    text-align: center;
+    height: 75px;
+    padding-top: 1.5%;
+ }
